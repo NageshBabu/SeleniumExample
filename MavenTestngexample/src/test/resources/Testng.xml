@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Google">
+  <test name="tst_google_chrome">
+  <parameter name="browser"  value="chrome" />
+    <classes>
+       <class name="myproj.Google" />       
+    </classes>
+  </test>  
+  <test name="tst_google_firefox">
+  <parameter name="browser"  value="firefox" />
+    <classes>
+       <class name="myproj.Google" />       
+    </classes>
+  </test>  
+</suite>
